@@ -1,0 +1,99 @@
+.workplace{
+    display: block;
+}
+.terapevtIntro{
+  background-image: url("../../../img/terapevtIntro.jpg");
+  position: absolute;
+  width: 55%;
+  height: 100%;
+}
+.authorization-panel{
+  position: inherit;
+  width: 45%;
+  height: 100%;
+}
+#Enter{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 79px;
+  color: #FFFFFF;
+  left: 25px;
+  top: -5px;
+  position: inherit;
+}
+#Slogan{
+  position: absolute;
+  width: 502px;
+  height: 147px;
+  left: 25px;
+  top: 150px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+#terapevt{
+  position: inherit;
+  width: 55%;
+  height: 100%;
+}
+hr{
+  position: absolute;
+  width: 133px;
+  height: 6px;
+  left: 25px;
+  top: 135px;
+  background: #007AD7;
+  border-radius: 1px;
+  border: none;
+}
+#enterLogo {
+  position: absolute;
+  width: 370px;
+  height: 100px;
+  left: 760px;
+  top: 20px;
+}
+#radioBlock {
+ display: inline;
+  left: 825px;
+  top: 150px;
+  position: relative;
+}
+#radioBlock input {
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  transform: skew(-20deg);
+  width: 120px;
+  height: 40px;
+  position: relative;
+  background: white;
+  border: solid 1px rgba(0, 0, 0, 0.41);
+}
+#radioBlock input:checked {
+  color:white;
+  position: absolute;
+  background: linear-gradient(90deg, #00B3F4 35.94%, #007AD7 100%);
+}
+#authorization-form {
+  position: absolute;
+  left: 750px;
+  top: 230px;
+  width: 100%;
+}
+label{
+  display: inline;
+}
+#authorization-form input {
+  margin: 7px;
+  width: 300px;
+  height: 25px;
+}
+#authorizationSubmit{
+  margin: 50px;
+}

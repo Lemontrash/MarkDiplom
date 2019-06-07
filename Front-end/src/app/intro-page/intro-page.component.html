@@ -1,0 +1,28 @@
+<div class="workplace">
+
+  <div class="terapevtIntro">
+    <p id="Enter"> Вход на платформу </p>
+     <hr>
+    <p id="Slogan"> Терапев - лучший учет пациентов для вашей клиники </p>
+  </div>
+
+  <div class="authorization-panel">
+    <img id="enterLogo" src="../../../img/logo.jpg">
+      <span id="radioBlock">
+        <input name="personal" type="button" value="personal" class="radio">
+        <input name="doctor" type="button" value="doctor" class="radio">
+      </span>
+    <span id="authorization-form">
+      <form method="get" class="authorization-panel" (ngSubmit)="signIn(username,password)" formGroup="authorizationForm">
+        <label for="nameInput">Имя пользователя</label><br>
+          <input id="nameInput" type="text" formControlName="username"><br>
+        <label for="passwordInput">Пароль пользователя</label><br>
+          <input id="passwordInput" type="password" formControlName="password"><br>
+        <input id="authorizationSubmit" type="submit">
+      </form>
+    </span>
+  </div>
+
+</div>
+
+
