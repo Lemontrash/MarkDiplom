@@ -1,0 +1,87 @@
+<div class="workplace">
+
+  <header>
+    <div id="logodiv"></div>
+    <div id="nav">
+      <a class="mainLinks" routerLink="/edit-profile">Редактировать профиль</a>
+      <a class="mainLinks" routerLink="">Выйти</a>
+    </div>
+  </header>
+
+  <div id="patientInfo">
+    <p id="title1">Добавить нового пациента</p>
+    <hr>
+    <p class="title2">Личные данные пациента</p>
+
+    <form method="get" (ngSubmit)="addPatient()" formGroup="infoForm">
+      <label for="nameInput" class="bigLabel">Ф.И.О.</label>
+       <input id="nameInput" type="text" formControlName="fio">
+
+      <label for="nationalityInput" class="bigLabel">Гражданство</label>
+       <input id="nationalityInput" type="text" formControlName="nationality">
+
+      <label for="jobInput" class="bigLabel">Место работы, должность</label>
+       <input id="jobInput" type="text" formControlName="job">
+
+       <input id="city" type="radio" formControlName="city" value="">
+        <input id="village" type="radio" formControlName="village" value="">
+        <input id="cityInput" type="text" formControlName="cityInput">
+
+      <label for="birth" class="bigLabel">Дата рождения</label>
+       <input id="birth" type="date" formControlName="birth">
+
+      <label for="documentInput" class="bigLabel">Документ</label>
+       <input id="documentInput" type="text" formControlName="document">
+
+      <label for="documentNumberInput" class="bigLabel">Номер документа</label>
+       <input id="documentNumberInput" type="text" formControlName="documentNumber">
+
+      <p class="title2">Данные о госпитализации</p>
+
+      <label for="historyNumberInput" class="bigLabel">Номер документа</label>
+      <input id="historyNumberInput" type="text" formControlName="historyNumber">
+
+      <label for="whomInput" class="bigLabel"></label>
+      <input id="whomInput" type="text" formControlName="whom">
+
+      <label for="hospitalizationDateInput" class="bigLabel"></label>
+      <input id="hospitalizationDateInput" type="date" formControlName="hospitalizationDate">
+
+      <label for="diagnosisInput" class="bigLabel"></label>
+      <input id="diagnosisInput" type="text" formControlName="diagnosis">
+
+      <label class="bigLabel"></label>
+
+      <label for="hospitalizationDepartmentInput"></label>
+      <input id="hospitalizationDepartmentInput" type="radio" formControlName="hospitalizationDepartment">
+      <input id="hospitalizationDepartmentNumberInput" type="text" formControlName="hospitalizationDepartmentNumber">
+      <label for="extractDepartmentInput"></label>
+      <input id="extractDepartmentInput" type="radio" formControlName="extractDepartment">
+      <input id="extractDepartmentNumberInput" type="text" formControlName="extractDepartmentNumber">
+      <label for="deathDepartmentInput"></label>
+      <input id="deathDepartmentInput" type="radio" formControlName="deathDepartment">
+      <input id="deathDepartmentNumberInput" type="text" formControlName="deathDepartmentNumber">
+
+      <label for="termInput" class="bigLabel"></label>
+      <input id="termInput" type="radio" formControlName="6hours">
+      <input id="termInput" type="radio" formControlName="6hours">
+      <input id="termInput" type="radio" formControlName="6hours">
+
+      <label for=""></label>
+      <input id="" type="" formControlName="">
+
+      <label for=""></label>
+      <input id="" type="" formControlName="">
+
+      <label for=""></label>
+      <input id="" type="" formControlName="">
+
+
+
+    </form>
+
+  </div>
+
+
+
+</div>
