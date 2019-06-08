@@ -1,17 +1,23 @@
-.workplace-header{
-  position: inherit;
-  width: inherit;
-  height: 8%;
-  box-shadow: 0px 4px 20px rgba(57, 70, 86, 0.15);
-  border-radius: 5px 5px 0px 0px;
-  background-color: white;
+#logodiv {
+  background: url("../../../img/logo.jpg") no-repeat center;
+  height: 60px;
+  width: 148px;
 }
-.workplace-container{
-  box-shadow: 0px 4px 20px rgba(57, 70, 86, 0.15);
-  top: 8%;
-  position: inherit;
-  width: inherit;
-  height: 500px;
-  background: rgb(247, 248, 249);
-  border-radius: 0px 0px 5px 5px;
+header{
+  display: flex;
+  padding: 10px;
+  height: 80px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+}
+.mainLinks{
+  text-decoration: none;
+  margin-left: 20px;
+}
+#nav{
+  margin-top: 30px;
+  margin-left: 600px;
+  padding: 10px;
+}
+#patientList{
+  border-color: #FAFBFC;
 }
